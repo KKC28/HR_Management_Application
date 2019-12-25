@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mt19124_mt191079_deadline2_project3">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Offer_Discription"></activity>
+        <activity android:name=".HiredCandiadtes" />
+        <activity android:name=".OfferLetter" />
+        <activity android:name=".Export" />
+        <activity android:name=".UpdateInterview" />
+        <activity android:name=".InterviewExam" />
+        <activity android:name=".FinalHiring" />
+        <activity android:name=".Update_Marks" />
+        <activity android:name=".Wrriten_Marks" />
+        <activity android:name=".Job_Applied_Status" />
+        <activity android:name=".Applications" />
+        <activity android:name=".Application_Recived" />
+        <activity android:name=".Jobs" />
+        <activity android:name=".CandidateCheckStatus" />
+        <activity android:name=".CandidateApplyJobs" />
+        <activity android:name=".JobProfile" />
+        <activity android:name=".NonHRHomePage" />
+        <activity android:name=".HRHomePage" />
+        <activity android:name=".Employee" />
+        <activity android:name=".CandidateLoginPage" />
+        <activity android:name=".CandidateHomePage" />
+        <activity android:name=".CandidateRegisterPage" />
+        <activity android:name=".List_Job" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+</manifest>

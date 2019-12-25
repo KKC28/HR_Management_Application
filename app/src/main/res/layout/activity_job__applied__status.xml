@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HRHomePage"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/jobStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:paddingTop="20dp">
+        <TextView
+            android:id="@+id/status_radio"
+            android:paddingRight="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Accept/Reject"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+        <RadioGroup
+            android:id="@+id/gen_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/status_radio"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/male_radio_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Accept"
+                android:checked="false"
+                />
+            <RadioButton
+                android:id="@+id/female_radio_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "Reject"
+                />
+        </RadioGroup>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/link"/>
+
+
+
+    <Button
+        android:id="@+id/wriitten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Submit" />
+    <Button
+        android:id="@+id/interview"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+
+
+</LinearLayout>

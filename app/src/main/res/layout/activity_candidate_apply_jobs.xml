@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CandidateApplyJobs"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Domain"
+        android:textStyle="bold"
+        android:textSize="15dp"></TextView>
+
+    <EditText
+        android:id="@+id/domain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Domain"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:editable="false"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gaps"
+        android:textStyle="bold"
+        android:textSize="15dp"></TextView>
+
+    <EditText
+        android:id="@+id/gaps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:hint="Gaps"
+
+        android:editable="false"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Experience"
+        android:textStyle="bold"
+        android:textSize="15dp"></TextView>
+    <EditText
+        android:id="@+id/experience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Experince"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:editable="false"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number_of_Vacancy"
+        android:textStyle="bold"
+        android:textSize="15dp"></TextView>
+    <EditText
+        android:id="@+id/numberOfVacancy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="NumberOfVancancy"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:editable="false"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bond"
+        android:textStyle="bold"
+        android:textSize="15dp"></TextView>
+    <EditText
+        android:id="@+id/bond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:hint="Bond" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salary"
+        android:textStyle="bold"
+        android:textSize="15dp"></TextView>
+    <EditText
+        android:id="@+id/salary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:hint="Salary" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Job Id"
+        android:textStyle="bold"
+        android:textSize="15dp"></TextView>
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:hint="Id" />
+
+    <Button
+        android:id="@+id/apply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Apply" />
+
+</LinearLayout>
